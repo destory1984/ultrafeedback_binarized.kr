@@ -114,7 +114,6 @@ print( "filename:", filename )
 print( "output:", arg_output_filename)
 print( "restart_count:", arg_restart_count)
 
-# model_id = "/aicc/model/squarelike_Gugugo-koen-7B-V1.1-GPTQ"
 model_id = "/han/model/squarelike_Gugugo-koen-7B-V1.1-AWQ"
 
 from vllm import LLM, SamplingParams
